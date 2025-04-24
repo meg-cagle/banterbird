@@ -1,6 +1,22 @@
 [
     {
         "username": "admin",
+        "message": "bjkjfhg"
+    },
+    {
+        "username": "admin",
+        "message": "hh\n"
+    },
+    {
+        "username": "admin",
+        "message": "Happy monday"
+    },
+    {
+        "username": "admin",
+        "message": "Happy monday"
+    },
+    {
+        "username": "admin",
         "message": "Welcome to Banterbird!"
     },
     {
@@ -9,6 +25,6 @@
     },
     {
         "username": "bob",
-        "message": "Just joined. Let’s tweet!"
+        "message": "Just joined. Let\u00e2\u20ac\u2122s tweet!"
     }
 ]

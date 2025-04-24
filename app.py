@@ -13,7 +13,7 @@ def get_posts():
         posts = json.load(file)
     return jsonify(posts)
 
-@app.route('/api/add_post', methods=['POST'])
+@app.route('/api/add_posts', methods=['POST'])
 def add_post():
     new_post = request.get_json()
     with open('data.json', 'r') as file:
@@ -23,6 +23,10 @@ def add_post():
         json.dump(posts, file, indent =4)
 
     return jsonify({"status" : "success"}), 201
+
+
+
+
 
 if __name__ == '__main__':
     app.run(debug=True)
